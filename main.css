@@ -17,3 +17,34 @@ ul li:hover {
   border-color: #f0f;
   background: rgba(0, 0, 0, 0.05);
 }
+@media (max-width: 1600px) {
+  ul li {
+    width: 21%;
+  }
+}
+@media (max-width: 1120px) {
+  ul li {
+    width: 29%;
+  }
+}
+@media (max-width: 1020px) {
+  ul li {
+    width: 28%;
+  }
+}
+@media (max-width: 810px) {
+  ul li {
+    width: 44%;
+  }
+}
+@media (max-width: 710px) {
+  ul li {
+    width: 43%;
+  }
+}
+@media (max-width: 610px) {
+  ul li {
+    width: 100%;
+    float: none;
+  }
+}
