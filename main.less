@@ -1,0 +1,50 @@
+ul {
+  list-style: none;
+  li {
+    width: 22%;
+    text-align:center;
+    min-height: 2em;
+    padding: 1em;
+    margin-left: 0.8%;
+    margin-bottom: 1%;
+    display: block;
+    float: left;
+    border: 1px solid black;
+    background: transparent;
+    .hover &:hover {
+      border-color: #f0f;
+      background: rgba(0, 0, 0, 0.05);
+    }
+    @media (max-width: 1600px) {
+      & {
+        width: 21%;
+      }
+    }
+    @media (max-width: 1120px) {
+      & {
+        width: 29%;
+      }
+    }
+    @media (max-width: 1020px) {
+      & {
+        width: 28%;
+      }
+    }
+    @media (max-width: 810px) {
+      & {
+        width: 44%;
+      }
+    }
+    @media (max-width: 710px) {
+      & {
+        width: 43%;
+      }
+    }
+    @media (max-width: 610px) {
+      & {
+        width: 100%;
+        float: none;
+      }
+    }
+  }
+}
