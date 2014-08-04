@@ -8,11 +8,7 @@ ul li {
   border: 1px solid black;
   background: transparent;
 }
-ul li:hover {
+.hover ul li:hover {
   border-color: #f0f;
   background: rgba(0, 0, 0, 0.05);
-}
-.no-hover ul li:hover {
-  border-color: black;
-  background: transparent;
 }
