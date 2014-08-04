@@ -21,4 +21,11 @@
 		<li>15</li>
 		<li>16</li>
 	</ul>
+	<script>
+	if (!('ontouchstart' in document.documentElement)) {
+	  document.documentElement.className += ' no-touch hover';
+	} else {
+	  document.documentElement.className += ' touch no-hover';
+	}
+	</script>
 </body></html>
